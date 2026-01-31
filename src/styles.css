@@ -431,7 +431,7 @@ button {
 }
 
 .tp-float-2 {
-  top: -40px;
+  top: -20px;
   right: -30px;
   animation: tp-float 3.5s infinite ease-in-out 0.5s;
 }
@@ -477,7 +477,7 @@ button {
 
 /* 付加クラス：グリーン */
 .tp-content-subtitle--green {
-  color: #a9d6b8;
+  color: #7abc90;
   border-bottom-color: rgba(169, 214, 184, .65);
 }
 
@@ -525,10 +525,7 @@ button {
 }
 
 .hden-main-title {
-  font-size: 32px;
-  font-weight: 800;
-  margin: 0;
-  letter-spacing: 0.05em;
+  margin: 30px 0 10px;
 }
 
 .hden-marker-green,
@@ -591,11 +588,15 @@ button {
   overflow: hidden;
 }
 
+.hden-flow-circle.green {
+  background-color: #e2f2ef;
+}
+
 .hden-flow-circle img {
   width: 100%;
   height: 100%;
   object-fit: contain;
-  object-position: 15px 10px;
+  object-position: 0px 10px;
 }
 
 .hden-flow-arrows {
@@ -617,7 +618,6 @@ button {
 .hden-card-icon-wrap {
   width: 100px;
   height: 100px;
-  border-radius: 50%;
   position: absolute;
   top: -40px;
   left: 50%;
@@ -630,6 +630,7 @@ button {
 .hden-card-icon-wrap img {
   width: 85%;
   height: auto;
+  border-radius: 999px;
 }
 
 .hden-card-body {
@@ -676,8 +677,8 @@ button {
 .hden-building-img {
   position: absolute;
   bottom: -5px;
-  right: 0;
-  width: 80px;
+  right: -10px;
+  width: 70px;
 }
 
 .hden-building-img img {
@@ -2655,7 +2656,7 @@ button {
 
 .hden-form-label {
   display: block;
-  font-size: 14px;
+  font-size: 18px;
   font-weight: 800;
   margin-bottom: 8px;
   color: #333;
@@ -2950,8 +2951,8 @@ button {
   }
 
   .tp-float-3 {
-    bottom: -100px;
-    right: -120px;
+    bottom: -120px;
+    right: -160px;
   }
 
   .tp-float-4 {
